@@ -1,0 +1,187 @@
+/* Font & Global Reset */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fdfaf6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Container Utama */
+.container {
+  max-width: 800px;
+  margin: 60px auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.06);
+  position: relative;
+  z-index: 1;
+}
+
+/* Heading */
+h1, h2, h3, h4 {
+  color: #2c3e50;
+  margin-bottom: 12px;
+}
+
+/* Button Style */
+button, .btn {
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+button:hover, .btn:hover {
+  background-color: #1a252f;
+}
+
+/* Tombol Logout (Merah) */
+.logout {
+  background-color: #e74c3c;
+}
+
+.logout:hover {
+  background-color: #c0392b;
+}
+
+/* Input, Select, Textarea */
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="file"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 16px;
+  background: #fafafa;
+}
+
+/* Login Box */
+.login-box {
+  max-width: 400px;
+  margin: 60px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  position: relative;
+  z-index: 2;
+}
+
+/* Progress Bar */
+.progress-container {
+  background-color: #eee;
+  border-radius: 12px;
+  height: 20px;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+.progress-bar {
+  background-color: #27ae60;
+  height: 100%;
+  width: 0;
+  border-radius: 12px;
+  transition: width 1s ease;
+}
+
+/* Message Alerts */
+.message {
+  color: red;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.message.success {
+  color: green;
+}
+
+/* Image Preview */
+.img-preview {
+  max-width: 100%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+/* Aesthetic Link */
+a {
+  color: #2c3e50;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Checkbox Style */
+.checkbox {
+  display: block;
+  padding: 12px;
+  margin-bottom: 10px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  transition: background 0.2s;
+}
+
+.checkbox:hover {
+  background: #eef1f5;
+}
+
+/* Admin Menu */
+.admin-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+/* Scroll to Top */
+.scroll-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 12px;
+  border-radius: 50%;
+  border: none;
+  background-color: #2c3e50;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  z-index: 999;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.scroll-top:hover {
+  background-color: #1a252f;
+}
+
+/* Background Illustration */
+.bg-illustration {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  opacity: 0.1;
+  z-index: 0;
+  pointer-events: none;
+}
