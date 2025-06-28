@@ -1,4 +1,3 @@
-Berikut adalah contoh file `README.md` yang cocok untuk repositori GitHub sistem pakar "Skin Sure":
 
 ---
 
