@@ -50,9 +50,6 @@ Metode **Certainty Factor** digunakan untuk merepresentasikan tingkat kepastian 
    └── <b>skin_sure.sql</b> # File SQL untuk struktur dan data awal database </pre>
 
 
-Berikut adalah bagian **"🚀 Cara Menjalankan Secara Lokal"** yang sudah **disatukan rapi dan benar dalam format Markdown**, siap untuk ditempel langsung ke `README.md`:
-
-````markdown
 ---
 
 ## 🚀 Cara Menjalankan Secara Lokal
