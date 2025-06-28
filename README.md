@@ -1,91 +1,88 @@
+# 🧴 Skin Sure - Web-Based Expert System for Infectious Skin Disease Diagnosis
+
+**Skin Sure** adalah sistem pakar berbasis web yang dirancang untuk membantu pengguna dalam mendiagnosa penyakit kulit menular berdasarkan gejala yang dialami. Sistem ini menggunakan metode **Certainty Factor (CF)** untuk menghitung tingkat kepastian terhadap suatu penyakit dan memberikan hasil diagnosa yang disertai gambar serta solusi penanganan awal.
+
+🔗 **GitHub Repository**: [https://github.com/zaes21/Sistem-Pakar-Skin-Sure](https://github.com/zaes21/Sistem-Pakar-Skin-Sure)
 
 ---
 
-```markdown
-# Skin Sure - Expert System for Infectious Skin Disease Diagnosis
-
-**Skin Sure** adalah sistem pakar berbasis web yang dirancang untuk membantu mendiagnosa penyakit kulit menular menggunakan metode **Certainty Factor (CF)**. Sistem ini dapat digunakan oleh masyarakat umum untuk mengenali kemungkinan penyakit kulit berdasarkan gejala yang dirasakan, lengkap dengan gambar penyakit dan rekomendasi penanganan awal.
-
-## 🔗 Link Repository
-GitHub: [https://github.com/zaes21/Sistem-Pakar-Skin-Sure](https://github.com/zaes21/Sistem-Pakar-Skin-Sure)
-
 ## 📌 Fitur Utama
 
-- Login & registrasi pengguna dan admin
-- Diagnosa penyakit kulit menular berbasis gejala (menggunakan metode CF)
-- Gambar visual penyakit
-- Admin panel untuk mengelola data gejala, penyakit, dan aturan CF
-- Desain responsif dan profesional, terinspirasi dari desain Figma
-- Fitur ganti password pengguna dan admin
+- 🔐 Login dan Registrasi untuk User & Admin  
+- 📋 Diagnosa Penyakit Kulit Menular berdasarkan Gejala  
+- 📊 Perhitungan Nilai Keyakinan menggunakan Certainty Factor (CF)  
+- 🖼️ Gambar Penyakit dan Deskripsi Detail  
+- 🧑‍⚕️ Informasi Dokter Spesialis Kulit dan Kelamin  
+- 🔧 Panel Admin untuk Kelola Gejala, Penyakit, dan Aturan CF  
+- 🎨 Desain Antarmuka Modern dan Responsif  
 
-## 🧪 Metode Diagnosa
+---
 
-Metode **Certainty Factor (CF)** digunakan untuk menghitung tingkat kepastian berdasarkan gejala yang dipilih pengguna. Hasil diagnosa berupa daftar kemungkinan penyakit dengan persentase keyakinan.
+## 🧪 Metode Diagnosa - Certainty Factor (CF)
+
+Metode **Certainty Factor** digunakan untuk merepresentasikan tingkat kepastian pakar terhadap suatu hubungan antara gejala dan penyakit. Nilai CF akan dihitung berdasarkan gejala yang dipilih pengguna dan akan menampilkan daftar kemungkinan penyakit beserta persentase tingkat keyakinan.
+
+---
 
 ## 🛠️ Teknologi yang Digunakan
 
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: PHP (Native)
-- **Database**: MySQL
-- **Tools**: Visual Studio Code, XAMPP
+| Komponen   | Teknologi                |
+|------------|--------------------------|
+| Frontend   | HTML, CSS, JavaScript    |
+| Backend    | PHP (Native)             |
+| Database   | MySQL                    |
+| Editor     | Visual Studio Code       |
+| Server     | XAMPP (Localhost)        |
+
+---
 
 ## 📁 Struktur Direktori
 
-```
+<pre> Sistem-Pakar-Skin-Sure/ 
+   ├── <b>assets/</b> # Gambar penyakit, file CSS, dan JS 
+   ├── <b>admin/</b> # Halaman admin (kelola gejala, penyakit, aturan CF) 
+   ├── <b>user/</b> # Halaman user (form diagnosa, hasil) 
+   ├── <b>koneksi.php</b> # File koneksi database 
+   ├── <b>login.php</b> # Form login pengguna 
+   ├── <b>register.php</b> # Form registrasi user 
+   ├── <b>proses.php</b> # Perhitungan CF berdasarkan input gejala 
+   ├── <b>hasil.php</b> # Hasil diagnosa yang ditampilkan ke user 
+   └── <b>skin_sure.sql</b> # File SQL untuk struktur dan data awal database </pre>
 
-Sistem-Pakar-Skin-Sure/
-├── assets/                # Gambar dan file statis lainnya
-├── admin/                 # Halaman admin (atur gejala, penyakit, aturan)
-├── user/                  # Halaman user (diagnosa, riwayat, hasil)
-├── config/                # Koneksi database
-├── login.php              # Form login
-├── register.php           # Form registrasi pengguna
-├── hasil.php              # Halaman hasil diagnosa
-├── proses.php             # Proses perhitungan CF
-└── ... (file lainnya)
 
-````
+Berikut adalah bagian **"🚀 Cara Menjalankan Secara Lokal"** yang sudah **disatukan rapi dan benar dalam format Markdown**, siap untuk ditempel langsung ke `README.md`:
 
-## 🚀 Cara Menjalankan di Lokal
+````markdown
+---
 
-1. Clone repositori:
+## 🚀 Cara Menjalankan Secara Lokal
+
+1. **Clone repositori**
    ```bash
    git clone https://github.com/zaes21/Sistem-Pakar-Skin-Sure.git
 ````
 
-2. Jalankan XAMPP, aktifkan Apache dan MySQL.
+2. **Pindahkan folder ke direktori `htdocs` milik XAMPP**
 
-3. Pindahkan folder ke direktori `htdocs/`:
-
-   ```
-   cp -r Sistem-Pakar-Skin-Sure/ D:\xampp\htdocs\
+   ```bash
+   C:\xampp\htdocs\Sistem-Pakar-Skin-Sure
    ```
 
-4. Buat database di phpMyAdmin dan import file SQL:
+3. **Import database**
 
    * Buka `http://localhost/phpmyadmin`
-   * Buat database misalnya: `skin_sure`
+   * Buat database baru, misalnya: `skin_sure`
    * Import file `skin_sure.sql` dari folder project
 
-5. Akses aplikasi:
+4. **Akses aplikasi via browser**
 
    ```
    http://localhost/Sistem-Pakar-Skin-Sure/
    ```
 
-## 👨‍⚕️ Tentang Skin Sure
+---
 
-Sistem ini dikembangkan sebagai bagian dari proyek akademik untuk membantu masyarakat mengenal dan mengantisipasi penyakit kulit menular. Diagnosa dilakukan berdasarkan pengetahuan pakar yang telah dikodekan dalam bentuk aturan CF.
+```
 
-> **Disclaimer**: Hasil diagnosa Skin Sure bukan pengganti konsultasi medis langsung. Untuk penanganan lebih lanjut, segera konsultasikan ke dokter spesialis kulit dan kelamin.
-
-## 🧑‍💻 Developer
-
-**Andika Eka Sastya Putra**
-  Institut Teknologi Garut
-  Dosen Pembimbing: Fitri Nuraeni, S.Kom., M.Kom
-
-## 📄 Lisensi
-
-Project ini bersifat open-source untuk tujuan pembelajaran dan non-komersial.
-
+Markdown di atas akan tampil rapi dan terformat sempurna di GitHub maupun viewer lainnya. Kalau kamu mau bagian ini langsung dimasukkan ke `README.md` yang sebelumnya, tinggal bilang ya!
+```
