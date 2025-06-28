@@ -52,31 +52,35 @@ Metode **Certainty Factor** digunakan untuk merepresentasikan tingkat kepastian 
 
 ---
 
-## 🚀 Cara Menjalankan Secara Lokal
+---
 
-1. **Clone repositori**
-   ```bash
-   git clone https://github.com/zaes21/Sistem-Pakar-Skin-Sure.git
-````
+## 🧑‍⚕️ Tentang Dokter dalam Sistem
 
-2. **Pindahkan folder ke direktori `htdocs` milik XAMPP**
+- Dokter Umum – Fakultas Kedokteran Universitas Padjadjaran  
+- Spesialis Kulit dan Kelamin – Fakultas Kedokteran Universitas Indonesia  
 
-   ```bash
-   C:\xampp\htdocs\Sistem-Pakar-Skin-Sure
-   ```
-
-3. **Import database**
-
-   * Buka `http://localhost/phpmyadmin`
-   * Buat database baru, misalnya: `skin_sure`
-   * Import file `skin_sure.sql` dari folder project
-
-4. **Akses aplikasi via browser**
-
-   ```
-   http://localhost/Sistem-Pakar-Skin-Sure/
-   ```
+Tokoh dokter ini ditampilkan dalam sistem sebagai bentuk edukasi dan representasi ahli medis dalam fitur konsultasi awal. Informasi ini tidak dimaksudkan sebagai pengganti konsultasi medis secara langsung.
 
 ---
 
+## ⚠️ Disclaimer
 
+Sistem ini hanya digunakan untuk **diagnosa awal berbasis gejala** dan **tidak menggantikan peran dokter**.  
+Untuk penanganan lanjutan, konsultasikan langsung ke dokter kulit profesional.
+
+---
+
+## 👨‍💻 Pengembang
+
+**Andika Eka Sastya Putra**  
+Institut Teknologi Garut  
+Dosen Pembimbing: *Fitri Nuraeni, S.Kom., M.Kom*
+
+---
+
+## 📄 Lisensi
+
+Proyek ini bersifat **open-source** dan ditujukan untuk **pembelajaran akademik**.  
+Bebas digunakan dan dimodifikasi dengan menyertakan atribusi yang sesuai.
+
+---
