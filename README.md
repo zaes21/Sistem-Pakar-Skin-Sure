@@ -59,7 +59,7 @@ Sistem-Pakar-Skin-Sure/
 3. Pindahkan folder ke direktori `htdocs/`:
 
    ```
-   cp -r Sistem-Pakar-Skin-Sure/ C:\xampp\htdocs\
+   cp -r Sistem-Pakar-Skin-Sure/ D:\xampp\htdocs\
    ```
 
 4. Buat database di phpMyAdmin dan import file SQL:
