@@ -82,7 +82,4 @@ Berikut adalah bagian **"🚀 Cara Menjalankan Secara Lokal"** yang sudah **disa
 
 ---
 
-```
 
-Markdown di atas akan tampil rapi dan terformat sempurna di GitHub maupun viewer lainnya. Kalau kamu mau bagian ini langsung dimasukkan ke `README.md` yang sebelumnya, tinggal bilang ya!
-```
