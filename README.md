@@ -78,6 +78,7 @@ Dosen Pembimbing: *Fitri Nuraeni, S.Kom., M.Kom*
 
 ---
 
+
 ## 📄 Lisensi
 
 Proyek ini bersifat **open-source** dan ditujukan untuk **pembelajaran akademik**.  
